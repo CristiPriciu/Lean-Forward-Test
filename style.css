@@ -244,6 +244,27 @@ textarea {
 	float:left;
 }
 
+#tableAplicatiiWrapper {
+	padding-top: 5px;
+}
+
+#tableAplicatiiWrapper table {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+#blueText {
+	color: #0099CC;
+}
+
+#orangeBackground {
+	background-color: rgba(255, 140, 0, 0.5);
+}
+
+#orangeBackground {
+	color: white;
+}
+
 #tableCriteriiWrapper{
 	padding-top: 5px;
 }
