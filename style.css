@@ -1,0 +1,299 @@
+body {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #696969;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#pageContainer {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 1px;
+	background-color: white;
+}
+
+#headerRow {
+	max-width: 1200px;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	font-size: 25px;
+}
+
+#headerLeft {
+	background-color: #B60000;
+	margin: 0;
+	padding: 0;
+}
+
+#headerLeft p {
+	color: white;
+	padding-top: 12px;
+}
+
+#headerCenter {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	background-color: #CDCDCD;
+}
+#headerCenter p {
+	color: #7851A9;
+	padding-top: 12px;
+	padding-right: 15px;
+}
+
+#headerRight {
+	margin: 0;
+	padding: 0;
+	background-color: #7851A9;
+}
+
+#headerRight p {
+	color: white;
+	padding-top: 12px;
+}
+
+#mainContentWrapper {
+	text-align: center;
+	min-height: 1000px;
+	background-color: #F8F8F8;
+}
+
+#mainContent {
+	max-width: 1000px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#mainTitleContainer {
+	padding-top: 50px;
+}
+
+@media only screen and (max-width: 556px) {
+	#mainTitleContainer {
+		padding-top: 110px;
+	}
+}
+
+#mainTitle {
+	color:#FF8C00;
+	text-align: left;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+/*Explorare*/
+
+#explorareTitle {
+	background-color: #7851A9;
+	height: 30px;
+	max-width: 250px;
+}
+#explorareTitle p {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#explorareBody {
+	background-color: rgba(216,191,216, 0.5);
+	height: 325px;
+	margin: 0px;
+	display: block;
+}
+
+#explorareFirstNumberWrapper {
+	clear:both;
+	padding-top: 10px;
+}
+
+#explorareFirstNumber {
+	float:left;
+	color: #7851A9;
+	padding-left: 10px;
+}
+
+#explorareFirstNumberText {
+	float:left;
+}
+
+#explorareMainWrapper {
+	clear:both;
+	padding-top: 15px;
+}
+
+#explorareList {
+	padding-left: 50px;
+}
+
+#explorareList p {
+	color: #7851A9;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+#explorareList ul {
+	text-align: left;
+	padding-left: 17px;
+	color: #7851A9;
+}
+
+textarea {
+   resize: none;
+   overflow: hidden;
+   border: 0;
+   background-color : #7851A9;
+   color: white;
+}
+
+#explorareSecondNumberWrapper {
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#explorareSecondNumber {
+	float:left;
+	color: #7851A9;
+	padding-left: 5px;
+}
+
+#explorareFirstNumberText {
+	float:left;
+}
+
+/*Repere*/
+
+#repereTitle {
+	background-color: #FF8C00;
+	height: 30px;
+	max-width: 250px;
+	margin-top: 15px;
+}
+#repereTitle p {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#repereBody {
+	background-color: rgba(255, 246, 229, 1);
+	height: 60px;
+	margin: 0px;
+	display: block;
+	padding-top: 5px;
+}
+
+#repereFirstPart {
+	float:left;
+	color: #FF8C00;
+	padding-left: 10px;
+}
+
+#repereSecondPart {
+	float:left;
+}
+
+/*Aplicatii*/
+
+#aplicatiiTitle {
+	background-color: #0099CC;
+	height: 30px;
+	max-width: 250px;
+	margin-top: 15px;
+}
+#aplicatiiTitle p {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#aplicatiiBody {
+	background-color: rgba(143,188,143, 0.1);
+	height: 400px;
+	margin: 0px;
+	display: block;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#aplicatiiFirstNumberWrapper {
+	clear:both;
+	padding-top: 10px;
+}
+
+#aplicatiiFirstNumber {
+	float:left;
+	color: #0099CC;
+	padding-left: 10px;
+}
+
+#aplicatiiFirstNumberText {
+	float:left;
+}
+
+#tableCriteriiWrapper{
+	padding-top: 5px;
+}
+
+#tableCriteriiWrapper table {
+	margin: 0 auto;
+}
+
+#tableCriteriiWrapper th, td{
+	border: 1px solid white;
+	border-top: 0px;
+	border-collapse: collapse;
+}
+
+#tableCriteriiWrapper th {
+	background-color: rgba(0, 153, 204, 0.5);
+	color: white;
+	min-width: 35px;
+}
+
+#tableCriteriiWrapper td {
+	text-align: left;
+	padding-left: 5px;
+	background-color: rgba(0, 153, 204, 0.1);
+}
+
+/*Provocari*/
+
+#provocariTitle {
+	background-color: #32CD32;
+	height: 30px;
+	max-width: 250px;
+	margin-top: 15px;
+}
+#provocariTitle p {
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#provocariBody {
+	background-color: rgba(143,188,143, 0.1);
+	height: 60px;
+	margin: 0px;
+	display: block;
+	padding-top: 5px;
+}
+
+#provocariSecondPart {
+	float:left;
+	padding-left: 10px;
+}
